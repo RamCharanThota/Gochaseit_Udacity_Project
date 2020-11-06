@@ -6,10 +6,10 @@
 ### Introduction
 The main objective of this project is to design and build a mobile robot model and place it in the world created in _Gazebo_. Then, program the robot to chase white-colored balls using _ROS C++ nodes_.
 
-###Motivation
+### Motivation
 To consolidate the concepts learned in the Udacity Robotics Nanodegree and get hands-on experience of working with _C++, ROS, Gazebo enviroment_.
 
-###structure
+### Structure
 
 '''sh
 Gochaseit
@@ -54,39 +54,40 @@ There are two main packages within this repository
       
 ### Prerequisites 
 
-1.Install Gazebo and ROS in Linux.
+1.Install Gazebo and ROS in Linux
+
 2. Cmake and gcc/g++
 
 ### Build
 
 1.Clone and Intialize the catkin workspace.
     
-    '''sh
+    
        $ mkdir -p catkin_ws
        $ cd catkin_ws/
        $ git clone https://github.com/RamCharanThota/Udacity_Robotic_ND_Proj2_Gochaseit.git src
        $ cd catkin_ws/src
        $ catkin_init_workspace 
-    '''
+    
 2. Build the packages
      
-     '''sh
+     
      $ cd ../
      $catkin_make
      
-     '''
+     
 3. launch robot and world in Gazebo
     
-    '''sh
+    
     $ source devel/setup.bash
     $ roslaunch my_robot world.launch  
-    '''
+    
 4. To drive the robot follow the white ball, open new terminal and launch
      
-     '''sh
+     
      $ source devel/setup.bash
      $ roslaunch ball_chaser ball_chaser.launch
-     '''
      
- Then, in Gazebo environment, place the white ball in the feild of view of robot camera.  The roobot will start following the white ball.   
+     
+ Then, in Gazebo environment, place the white ball in the feild of view of robot camera.  The robot will start following the white ball.   
 
