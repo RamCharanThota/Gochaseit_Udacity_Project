@@ -11,40 +11,6 @@ To consolidate the concepts learned in the Udacity Robotics Nanodegree and get h
 
 ### Structure
 
-'''bash 
-
-Gochaseit
-│   └── src
-│       ├── ball_chaser
-│       │   ├── CMakeLists.txt
-│       │   ├── launch
-│       │   │   └── ball_chaser.launch
-│       │   ├── package.xml
-│       │   ├── src
-│       │   │   ├── drive_bot.cpp
-│       │   │   └── process_image.cpp
-│       │   └── srv
-│       │       └── DriveToTarget.srv
-│       ├── CMakeLists.txt -> /opt/ros/kinetic/share/catkin/cmake/toplevel.cmake
-│       ├── gochaseit.gif
-│       ├── my_robot
-│       │   ├── CMakeLists.txt
-│       │   ├── launch
-│       │   │   ├── robot_description.launch
-│       │   │   └── world.launch
-│       │   ├── meshes
-│       │   │   └── hokuyo.dae
-│       │   ├── package.xml
-│       │   ├── urdf
-│       │   │   ├── my_robot.gazebo
-│       │   │   └── my_robot.xacro
-│       │   └── worlds
-│       │       ├── empty.world
-│       │       └── myhome_robot.world
-│       └── README.md
-
-'''
-
 There are two main packages within this repository
 
 #### 1.my_robot
