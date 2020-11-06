@@ -56,13 +56,13 @@ There are two main packages within this repository
       
 ### Prerequisites 
 
-1.Install Gazebo and ROS in Linux.
+#### 1.Install Gazebo and ROS in Linux.
 
-2. Cmake and gcc/g++
+#### 2. Cmake and gcc/g++
 
 ### Build
 
-1.Clone and Intialize the catkin workspace.
+#### 1.Clone and Intialize the catkin workspace.
     
     
        $ mkdir -p catkin_ws
@@ -71,20 +71,20 @@ There are two main packages within this repository
        $ cd catkin_ws/src
        $ catkin_init_workspace 
     
-2. Build the packages.
+#### 2. Build the packages.
      
      
      $ cd ../
-     $catkin_make
+     $ catkin_make
      
      
-3. launch robot and world in Gazebo.
+#### 3. launch robot and world in Gazebo.
     
     
     $ source devel/setup.bash
-    $ roslaunch my_robot world.launch  
+    $ roslaunch my_robot world.launch 
     
-4. To drive the robot follow the white ball, open new terminal and launch.
+#### 4. To drive the robot follow the white ball, open new terminal and launch.
      
      
      $ source devel/setup.bash
