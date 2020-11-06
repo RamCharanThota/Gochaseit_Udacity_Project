@@ -17,7 +17,7 @@ There are two main packages within this repository
          my_robot package contains a mobile robot URDF file, Gazebo world, and the white ball files. 
 #### 2.ball_chaser
         ball_chaser package contains two main ROS nodes. first one, the process_image node is responsible for identifying the white ball-
-      location in a given. and then drive_bot node will drive the robot to follow the white ball based on the information coming from 
+      position in a given image. and then drive_bot node will drive the robot to follow the white ball based on the information coming from 
       the process_image node. 
       
 ### Prerequisites 
